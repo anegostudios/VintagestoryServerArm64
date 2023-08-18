@@ -28,7 +28,7 @@ This version *should* be compatible with any version of the .NET 7 version of th
 
 So far we have tested it on a Raspberry Pi 4 4GB without issues. Keep in mind tho this is very experimental and we haven't done any more comprehensive testing so far. So this might run totally fine or have some major issues be warned.
 
-Mods: We have not tested much with mods yet but since the rest of the code to make the server even start did not need any changes, like the internal mods, we expect it to work _fine_ with almost all mods. Eventually some mods that rely on specific libraries that are not provided with the mod for linux-arm64 may not work.
+Mods: We have not tested much with mods yet but since the rest of the code to make the server even start did not need any changes, like the internal mods, we expect it to work _fine_ with almost all mods. Eventually some mods that rely on specific native libraries that are not provided with the mod for linux-arm64 may not work.
 
 Further we have not tested or planned to provide a Linux Arm64 client version as of now, since as far as we are aware there aren't much devise to make really use of it.
 
