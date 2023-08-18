@@ -9,7 +9,7 @@ This repository houses the necessary files to to get a working VintagestgoryServ
  - [.NET 7.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) installed
 
 1. Download the latest VintagestoryServer [vs_server_linux-x64_1.18.8.tar.gz](https://cdn.vintagestory.at/gamefiles/stable/vs_server_linux-x64_1.18.8.tar.gz) and extract it.
-2. Delete 
+2. Delete the following files and folders
  - VintagestoryServer
  - VintagestoryServer.deps.json
  - VintagestoryServer.dll
@@ -21,7 +21,7 @@ This repository houses the necessary files to to get a working VintagestgoryServ
 
 4. Copy the contents of `server` from the extracted files to your server location.
 
-5. Start the server using ``./VintagestoryServer` or `dotnet VintagestoryServer.dll`
+5. Start the server using `./VintagestoryServer` or `dotnet VintagestoryServer.dll`
 
 ### Notes
 This version *should* be compatible with any version of the .NET 7 version of the game. The reason is that this only contains some dependencies and the binary to start the server since more is not necessary.
