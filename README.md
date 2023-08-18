@@ -1,6 +1,6 @@
 # VintagestoryServer Linux-Arm64
 
-This repository houses the necessary files to to get a working VintagestgoryServer .NET 7.0 running on linux Arm-64 architecture.
+This repository houses the necessary files to to get a working VintagestoryServer .NET 7.0 running on linux Arm-64 architecture.
 
 ## Installation
 
