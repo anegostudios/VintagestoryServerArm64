@@ -17,7 +17,7 @@ This repository houses the necessary files to to get a working VintagestoryServe
  - VintagestoryServer.runtimeconfig.json
  - Lib
 
-3. Download this [repository](https://github.com/anegostudios/VintagestoryServerArm64/archive/refs/heads/master.zip) and extract it.
+3. Download the release from this [repository](https://github.com/anegostudios/VintagestoryServerArm64/files/12380878/vs_server_linux-arm64.tar.gz) and extract it.
 
 4. Copy the contents of `server` from the extracted files to your server location.
 
