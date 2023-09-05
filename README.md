@@ -24,15 +24,17 @@ This repository houses the necessary files to get a working VintagestoryServer .
 5. Start the server using `./VintagestoryServer` or `dotnet VintagestoryServer.dll`
 
 Alternatively, you can use the install script by doing the following:
-1. Create a new file named `arminstall.sh` by running `vim arminstall.sh` or `nano arminstall.sh`
+1. Install required dependencies to use this script by doing `apt -y install curl jq` if on a debian based system. 
 
-2. Copy the contents of the `arminstall.sh` file from GitHub to your newly created file and save it by using `:wq` with Vim or `Ctrl + X`, then `Y`, then `Enter` with Nano.
+2. Create a new file named `arminstall.sh` by running `vim arminstall.sh` or `nano arminstall.sh`
 
-3. Make the script executable by running `chmod +x arminstall.sh`
+3. Copy the contents of the `arminstall.sh` file from GitHub to your newly created file and save it by using `:wq` with Vim or `Ctrl + X`, then `Y`, then `Enter` with Nano.
 
-4. Run the script by doing `./arminstall.sh`
+4. Make the script executable by running `chmod +x arminstall.sh`
 
-5. Start the server by using `./VintagestoryServer` or `dotnet VintagestoryServer.dll`
+5. Run the script by doing `./arminstall.sh`
+
+6. Start the server by using `./VintagestoryServer` or `dotnet VintagestoryServer.dll`
 
 This will download the latest version of Vintagestory to the current working directory, then replace the needed files to work with ARM.
 
