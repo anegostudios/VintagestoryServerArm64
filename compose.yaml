@@ -1,0 +1,13 @@
+services:
+  vsserver:
+    build: .
+    ports:
+      - "42420:42420"
+    restart: on-failure
+    stdin_open: true
+    tty: true
+    volumes:
+      - vsdata:/home/app/.config/VintagestoryData
+      - ./serverconfig.json:/home/app/.config/VintagestoryData/serverconfig.json
+volumes:
+  vsdata:
