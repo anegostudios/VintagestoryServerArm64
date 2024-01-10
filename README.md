@@ -28,7 +28,7 @@ The first run will take longer, but eventually you should be able to type `/help
 * Use `CTRL+P CTRL+Q` to detach terminal from the server.
 * `docker volume inspect vintagestory-docker_vsdata` will show the storage mount.
 * `docker-compose down -v` will remove the container _along with the storage_ if you need to start over.
-* `docker-compose create --build` to force rebuild from Dockerfile.
+* `docker-compose create --build` to force rebuild from Dockerfile - this may be needed when updating Dockerfile.
 
 ## Installation
 
