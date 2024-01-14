@@ -17,7 +17,7 @@ Runs Vintagestory Server in Docker using [official Microsoft .NET images](https:
 ### Run
 The following command will build an image using the provided Dockerfile, mount storage, run the server, and attach the terminal to it:
 ```bash
-docker-compose up -d && docker attach vintagestory-docker_vsserver_1
+docker-compose up -d && docker attach vintagestoryserverarm64_vsserver_1
 ```
 
 The first run will take longer, but eventually you should be able to type `/help` and hit enter to see how to interact with the server.
@@ -26,7 +26,7 @@ The first run will take longer, but eventually you should be able to type `/help
 
 * To save and shutdown, type `/stop` and hit enter.
 * Use `CTRL+P CTRL+Q` to detach terminal from the server.
-* `docker volume inspect vintagestory-docker_vsdata` will show the storage mount.
+* `docker volume inspect vintagestoryserverarm64_vsdata` will show the storage mount.
 * `docker-compose down -v` will remove the container _along with the storage_ if you need to start over.
 * `docker-compose create --build` to force rebuild from Dockerfile - this may be needed when updating Dockerfile.
 
