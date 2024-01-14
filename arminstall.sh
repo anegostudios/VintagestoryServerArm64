@@ -12,7 +12,7 @@ fi
 # Function to check if a command is available
 # Function to check if a command is available
 command_exists() {
-  command -v "$1" >/dev/null 2>&1
+  which "$1" >/dev/null 2>&1
 }
 
 # Function to detect the user's Linux distribution
