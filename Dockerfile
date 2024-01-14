@@ -5,8 +5,6 @@ ARG VS_VERSION_TYPE=unstable
 WORKDIR /tmp
 ADD https://cdn.vintagestory.at/gamefiles/${VS_VERSION_TYPE}/vs_server_linux-x64_${VS_VERSION}.tar.gz \
     ./vs_server_linux-x64_${VS_VERSION}.tar.gz
-ADD https://github.com/anegostudios/VintagestoryServerArm64/raw/main/vs_server_linux-arm64_${VS_VERSION}.tar.gz \
-    ./vs_server_linux-arm64_${VS_VERSION}.tar.gz
 
 WORKDIR /opt/vintagestory
 RUN tar xzf /tmp/vs_server_linux-x64_${VS_VERSION}.tar.gz
@@ -16,7 +14,7 @@ RUN rm -rf VintagestoryServer \
     VintagestoryServer.pdb \
     VintagestoryServer.runtimeconfig.json \
     Lib
-RUN tar xzf /tmp/vs_server_linux-arm64_${VS_VERSION}.tar.gz
+ADD ./server .
 
 FROM mcr.microsoft.com/dotnet/runtime:7.0
 # create non-root user 'app' as defined in runtime:8.0
