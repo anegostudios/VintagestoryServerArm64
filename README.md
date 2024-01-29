@@ -2,34 +2,6 @@
 
 This repository houses the necessary files to get a working VintagestoryServer .NET 7.0 running on Linux Arm-64 architecture.
 
-## Docker
-
-Runs Vintagestory Server in Docker using [official Microsoft .NET images](https://learn.microsoft.com/en-us/dotnet/core/docker/introduction).
-
-### Requirements
-- Linux Arm64 server. Tested with Raspberry Pi 5 (Raspbian OS).
-- Install [Docker](https://www.docker.com/get-started/)
-- Install [Docker compose](https://docs.docker.com/compose/install/)
-
-### Prepare server config
-`serverconfig.json` contains mostly defaults (paths changed to work with the container). Any edits will make it into the server.
-
-### Run
-The following command will build an image using the provided Dockerfile, mount storage, run the server, and attach the terminal to it:
-```bash
-docker-compose up -d && docker attach vintagestoryserverarm64_vsserver_1
-```
-
-The first run will take longer, but eventually you should be able to type `/help` and hit enter to see how to interact with the server.
-
-### Tips
-
-* To save and shutdown, type `/stop` and hit enter.
-* Use `CTRL+P CTRL+Q` to detach terminal from the server.
-* `docker volume inspect vintagestoryserverarm64_vsdata` will show the storage mount.
-* `docker-compose down -v` will remove the container _along with the storage_ if you need to start over.
-* `docker-compose create --build` to force rebuild from Dockerfile - this may be needed when updating Dockerfile.
-
 ## Installation
 
 ### Requirements
@@ -45,7 +17,7 @@ The first run will take longer, but eventually you should be able to type `/help
    - VintagestoryServer.runtimeconfig.json
    - Lib
 
-3. Download the release from this [repository](https://github.com/anegostudios/VintagestoryServerArm64/raw/main/vs_server_linux-arm64.tar.gz?download=) and extract it.
+3. Download the release from this for your vintagestory version (1.18 or 1.19 as of now) [repository](https://github.com/anegostudios/VintagestoryServerArm64/releases) and extract it.
 
 4. Copy the contents of the `server` folder from the extracted files to your server location.
 
@@ -80,3 +52,32 @@ Mods: We have not tested much with mods yet, but since the rest of the code to m
 Furthermore, we have not tested or planned to provide a Linux Arm64 client version as of now, since as far as we are aware, there aren't many devices to make really use of it.
 
 If you have any further questions or want to share your results/experience, feel free to do so in the [Discord #multiplayer -> VintagestoryServer Arm64](https://discord.com/channels/302152934249070593/1128220205181587516) thread.
+
+
+## Using Docker
+
+Runs Vintagestory Server in Docker using [official Microsoft .NET images](https://learn.microsoft.com/en-us/dotnet/core/docker/introduction).
+
+### Requirements
+- Linux Arm64 server. Tested with Raspberry Pi 5 (Raspbian OS).
+- Install [Docker](https://www.docker.com/get-started/)
+- Install [Docker compose](https://docs.docker.com/compose/install/)
+
+### Prepare server config
+`serverconfig.json` contains mostly defaults (paths changed to work with the container). Any edits will make it into the server.
+
+### Run
+The following command will build an image using the provided Dockerfile, mount storage, run the server, and attach the terminal to it:
+```bash
+docker-compose up -d && docker attach vintagestoryserverarm64_vsserver_1
+```
+
+The first run will take longer, but eventually you should be able to type `/help` and hit enter to see how to interact with the server.
+
+### Tips
+
+* To save and shutdown, type `/stop` and hit enter.
+* Use `CTRL+P CTRL+Q` to detach terminal from the server.
+* `docker volume inspect vintagestoryserverarm64_vsdata` will show the storage mount.
+* `docker-compose down -v` will remove the container _along with the storage_ if you need to start over.
+* `docker-compose create --build` to force rebuild from Dockerfile - this may be needed when updating Dockerfile.
