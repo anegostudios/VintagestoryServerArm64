@@ -8,7 +8,7 @@ This repository houses the necessary files to get a working VintagestoryServer .
 - Linux Arm64 server
 - [.NET 7.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) installed
 
-1. Download the latest VintagestoryServer [vs_server_linux-x64_1.18.8.tar.gz](https://cdn.vintagestory.at/gamefiles/stable/vs_server_linux-x64_1.18.8.tar.gz) and extract it.
+1. Download the latest VintagestoryServer from [account.vintagestory.at](https://account.vintagestory.at/) and extract it.
 2. Delete the following files and folders:
    - VintagestoryServer
    - VintagestoryServer.deps.json
