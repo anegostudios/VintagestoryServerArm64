@@ -4,6 +4,9 @@ This repository houses the necessary files to get a working VintagestoryServer .
 
 ## Installation
 
+#### Note
+Mods using Harmony will not work properly on arm64 servers since Harmony is not compatible with arm64.
+
 ### Requirements
 - Linux Arm64 server
 - [.NET 7.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/7.0) installed
