@@ -193,6 +193,8 @@ tar -xzf vs_server.tar.gz
 rm -rf VintagestoryServer VintagestoryServer.deps.json VintagestoryServer.dll VintagestoryServer.pdb VintagestoryServer.runtimeconfig.json Lib
 
 # Download the release for ARM64 and extract it
+
+# https://github.com/anegostudios/VintagestoryServerArm64/releases/download/1.19.0-rc.6/vs_server_linux-arm64-1.19.tar.gz
 ARM64_RELEASE_URL="https://github.com/anegostudios/VintagestoryServerArm64/files/12380878/vs_server_linux-arm64.tar.gz"
 curl -o vs_server_arm64.tar.gz -L "$ARM64_RELEASE_URL" # Use -L for redirection
 tar -xzf vs_server_arm64.tar.gz
