@@ -6,7 +6,8 @@
       "version": "7.0.0"
     },
     "configProperties": {
-      "System.Reflection.Metadata.MetadataUpdater.IsSupported": false
+      "System.Reflection.Metadata.MetadataUpdater.IsSupported": false,
+      "System.Runtime.TieredPGO": true
     }
   }
 }
