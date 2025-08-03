@@ -3,6 +3,7 @@ services:
     build: .
     ports:
       - "42420:42420"
+      - "42420:42420/udp"
     restart: on-failure
     stdin_open: true
     tty: true
