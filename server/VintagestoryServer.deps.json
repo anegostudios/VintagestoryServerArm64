@@ -1,19 +1,19 @@
 {
   "runtimeTarget": {
-    "name": ".NETCoreApp,Version=v7.0/linux-arm64",
+    "name": ".NETCoreApp,Version=v8.0/linux-arm64",
     "signature": ""
   },
   "compilationOptions": {},
   "targets": {
-    ".NETCoreApp,Version=v7.0": {},
-    ".NETCoreApp,Version=v7.0/linux-arm64": {
+    ".NETCoreApp,Version=v8.0": {},
+    ".NETCoreApp,Version=v8.0/linux-arm64": {
       "VintagestoryServer/1.0.0": {
         "dependencies": {
-          "SkiaSharp.NativeAssets.Linux.NoDependencies": "2.88.7",
+          "SkiaSharp.NativeAssets.Linux.NoDependencies": "3.116.1",
           "VSCreativeMod": "1.0.0",
           "VSEssentials": "1.0.0",
           "VSSurvivalMod": "1.0.0",
-          "VintageStory.Native.Linux": "1.0.4",
+          "VintageStory.Native.Linux": "1.0.5",
           "VintagestoryLib": "1.0.0",
           "cairo-sharp.Reference": "1.0.0.0",
           "VSEssentials.Reference": "1.0.0.0"
@@ -41,90 +41,84 @@
           }
         }
       },
-      "DnsClient/1.7.0": {
-        "dependencies": {
-          "Microsoft.Win32.Registry": "5.0.0"
-        },
+      "DnsClient/1.8.0": {
         "runtime": {
-          "lib/net6.0/DnsClient.dll": {
-            "assemblyVersion": "1.7.0.0",
-            "fileVersion": "1.7.0.0"
+          "lib/net8.0/DnsClient.dll": {
+            "assemblyVersion": "1.8.0.0",
+            "fileVersion": "1.8.0.0"
           }
         }
       },
-      "Eto.Forms/2.8.3": {
+      "Eto.Forms/2.9.0": {
         "runtime": {
           "lib/net6.0/Eto.dll": {
-            "assemblyVersion": "2.8.0.0",
-            "fileVersion": "2.8.8836.26883"
+            "assemblyVersion": "2.9.0.0",
+            "fileVersion": "2.9.9128.32678"
           }
         }
       },
-      "Lib.Harmony.Thin/2.3.1.1": {
+      "Lib.Harmony.Thin/2.3.6": {
         "dependencies": {
-          "MonoMod.Core": "1.1.0",
-          "System.Text.Json": "7.0.4"
+          "MonoMod.Core": "1.2.3",
+          "System.Text.Json": "8.0.5"
         },
         "runtime": {
-          "lib/net7.0/0Harmony.dll": {
-            "assemblyVersion": "2.3.1.1",
-            "fileVersion": "2.3.1.1"
+          "lib/net8.0/0Harmony.dll": {
+            "assemblyVersion": "2.3.6.0",
+            "fileVersion": "2.3.6.0"
           }
         }
       },
       "Microsoft.CodeAnalysis.Analyzers/3.3.4": {},
-      "Microsoft.CodeAnalysis.Common/4.9.2": {
+      "Microsoft.CodeAnalysis.Common/4.12.0": {
         "dependencies": {
           "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
           "System.Collections.Immutable": "8.0.0",
-          "System.Reflection.Metadata": "8.0.0",
-          "System.Runtime.CompilerServices.Unsafe": "6.0.0"
+          "System.Reflection.Metadata": "8.0.0"
         },
         "runtime": {
-          "lib/net7.0/Microsoft.CodeAnalysis.dll": {
-            "assemblyVersion": "4.9.0.0",
-            "fileVersion": "4.900.224.12906"
+          "lib/net8.0/Microsoft.CodeAnalysis.dll": {
+            "assemblyVersion": "4.12.0.0",
+            "fileVersion": "4.1200.24.57207"
           }
         }
       },
-      "Microsoft.CodeAnalysis.CSharp/4.9.2": {
+      "Microsoft.CodeAnalysis.CSharp/4.12.0": {
         "dependencies": {
-          "Microsoft.CodeAnalysis.Common": "4.9.2"
+          "Microsoft.CodeAnalysis.Analyzers": "3.3.4",
+          "Microsoft.CodeAnalysis.Common": "4.12.0",
+          "System.Collections.Immutable": "8.0.0",
+          "System.Reflection.Metadata": "8.0.0"
         },
         "runtime": {
-          "lib/net7.0/Microsoft.CodeAnalysis.CSharp.dll": {
-            "assemblyVersion": "4.9.0.0",
-            "fileVersion": "4.900.224.12906"
+          "lib/net8.0/Microsoft.CodeAnalysis.CSharp.dll": {
+            "assemblyVersion": "4.12.0.0",
+            "fileVersion": "4.1200.24.57207"
           }
         }
       },
-      "Microsoft.Data.Sqlite/8.0.3": {
+      "Microsoft.Data.Sqlite/8.0.13": {
         "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "8.0.3",
+          "Microsoft.Data.Sqlite.Core": "8.0.13",
           "SQLitePCLRaw.bundle_e_sqlite3": "2.1.6"
         }
       },
-      "Microsoft.Data.Sqlite.Core/8.0.3": {
+      "Microsoft.Data.Sqlite.Core/8.0.13": {
         "dependencies": {
           "SQLitePCLRaw.core": "2.1.6"
         },
         "runtime": {
-          "lib/net6.0/Microsoft.Data.Sqlite.dll": {
-            "assemblyVersion": "8.0.3.0",
-            "fileVersion": "8.0.324.11510"
+          "lib/net8.0/Microsoft.Data.Sqlite.dll": {
+            "assemblyVersion": "8.0.13.0",
+            "fileVersion": "8.0.1325.6604"
           }
         }
       },
-      "Microsoft.NETCore.Platforms/5.0.0": {},
-      "Microsoft.Win32.Registry/5.0.0": {
-        "dependencies": {
-          "System.Security.AccessControl": "5.0.0",
-          "System.Security.Principal.Windows": "5.0.0"
-        }
-      },
+      "Microsoft.Net.Sdk.Compilers.Toolset/9.0.300": {},
+      "Microsoft.NETCore.Platforms/2.1.0": {},
       "Microsoft.Win32.SystemEvents/4.5.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0"
+          "Microsoft.NETCore.Platforms": "2.1.0"
         },
         "runtime": {
           "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
@@ -133,23 +127,23 @@
           }
         }
       },
-      "Mono.Cecil/0.11.5": {
+      "Mono.Cecil/0.11.6": {
         "runtime": {
           "lib/netstandard2.0/Mono.Cecil.Mdb.dll": {
-            "assemblyVersion": "0.11.5.0",
-            "fileVersion": "0.11.5.0"
+            "assemblyVersion": "0.11.6.0",
+            "fileVersion": "0.11.6.0"
           },
           "lib/netstandard2.0/Mono.Cecil.Pdb.dll": {
-            "assemblyVersion": "0.11.5.0",
-            "fileVersion": "0.11.5.0"
+            "assemblyVersion": "0.11.6.0",
+            "fileVersion": "0.11.6.0"
           },
           "lib/netstandard2.0/Mono.Cecil.Rocks.dll": {
-            "assemblyVersion": "0.11.5.0",
-            "fileVersion": "0.11.5.0"
+            "assemblyVersion": "0.11.6.0",
+            "fileVersion": "0.11.6.0"
           },
           "lib/netstandard2.0/Mono.Cecil.dll": {
-            "assemblyVersion": "0.11.5.0",
-            "fileVersion": "0.11.5.0"
+            "assemblyVersion": "0.11.6.0",
+            "fileVersion": "0.11.6.0"
           }
         }
       },
@@ -161,53 +155,53 @@
           }
         }
       },
-      "MonoMod.Backports/1.1.0": {
+      "MonoMod.Backports/1.1.2": {
         "dependencies": {
-          "MonoMod.ILHelpers": "1.0.1"
+          "MonoMod.ILHelpers": "1.1.0"
         },
         "runtime": {
-          "lib/net7.0/MonoMod.Backports.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
+          "lib/net8.0/MonoMod.Backports.dll": {
+            "assemblyVersion": "1.1.2.0",
+            "fileVersion": "1.1.2.0"
           }
         }
       },
-      "MonoMod.Core/1.1.0": {
+      "MonoMod.Core/1.2.3": {
         "dependencies": {
-          "Mono.Cecil": "0.11.5",
-          "MonoMod.Backports": "1.1.0",
-          "MonoMod.ILHelpers": "1.0.1",
-          "MonoMod.Utils": "25.0.4"
+          "Mono.Cecil": "0.11.6",
+          "MonoMod.Backports": "1.1.2",
+          "MonoMod.ILHelpers": "1.1.0",
+          "MonoMod.Utils": "25.0.8"
         },
         "runtime": {
-          "lib/net7.0/MonoMod.Core.dll": {
-            "assemblyVersion": "1.1.0.0",
-            "fileVersion": "1.1.0.0"
+          "lib/net8.0/MonoMod.Core.dll": {
+            "assemblyVersion": "1.2.3.0",
+            "fileVersion": "1.2.3.0"
           },
-          "lib/net7.0/MonoMod.Iced.dll": {
-            "assemblyVersion": "1.17.0.0",
-            "fileVersion": "1.17.0.0"
+          "lib/net8.0/MonoMod.Iced.dll": {
+            "assemblyVersion": "1.21.0.0",
+            "fileVersion": "1.21.0.0"
           }
         }
       },
-      "MonoMod.ILHelpers/1.0.1": {
+      "MonoMod.ILHelpers/1.1.0": {
         "runtime": {
-          "lib/net7.0/MonoMod.ILHelpers.dll": {
-            "assemblyVersion": "1.0.1.0",
-            "fileVersion": "1.0.1.0"
+          "lib/net8.0/MonoMod.ILHelpers.dll": {
+            "assemblyVersion": "1.1.0.0",
+            "fileVersion": "1.1.0.0"
           }
         }
       },
-      "MonoMod.Utils/25.0.4": {
+      "MonoMod.Utils/25.0.8": {
         "dependencies": {
-          "Mono.Cecil": "0.11.5",
-          "MonoMod.Backports": "1.1.0",
-          "MonoMod.ILHelpers": "1.0.1"
+          "Mono.Cecil": "0.11.6",
+          "MonoMod.Backports": "1.1.2",
+          "MonoMod.ILHelpers": "1.1.0"
         },
         "runtime": {
-          "lib/net7.0/MonoMod.Utils.dll": {
-            "assemblyVersion": "25.0.4.0",
-            "fileVersion": "25.0.4.0"
+          "lib/net8.0/MonoMod.Utils.dll": {
+            "assemblyVersion": "25.0.8.0",
+            "fileVersion": "25.0.8.0"
           }
         }
       },
@@ -227,131 +221,131 @@
           }
         }
       },
-      "OpenTK/4.8.2": {
+      "OpenTK/4.9.4": {
         "dependencies": {
-          "OpenTK.Audio.OpenAL": "4.8.2",
-          "OpenTK.Compute": "4.8.2",
-          "OpenTK.Core": "4.8.2",
-          "OpenTK.Graphics": "4.8.2",
-          "OpenTK.Input": "4.8.2",
-          "OpenTK.Mathematics": "4.8.2",
-          "OpenTK.Windowing.Common": "4.8.2",
-          "OpenTK.Windowing.Desktop": "4.8.2",
-          "OpenTK.Windowing.GraphicsLibraryFramework": "4.8.2"
+          "OpenTK.Audio.OpenAL": "4.9.4",
+          "OpenTK.Compute": "4.9.4",
+          "OpenTK.Core": "4.9.4",
+          "OpenTK.Graphics": "4.9.4",
+          "OpenTK.Input": "4.9.4",
+          "OpenTK.Mathematics": "4.9.4",
+          "OpenTK.Windowing.Common": "4.9.4",
+          "OpenTK.Windowing.Desktop": "4.9.4",
+          "OpenTK.Windowing.GraphicsLibraryFramework": "4.9.4"
         }
       },
-      "OpenTK.Audio.OpenAL/4.8.2": {
+      "OpenTK.Audio.OpenAL/4.9.4": {
         "dependencies": {
-          "OpenTK.Core": "4.8.2",
-          "OpenTK.Mathematics": "4.8.2"
+          "OpenTK.Core": "4.9.4",
+          "OpenTK.Mathematics": "4.9.4"
         },
         "runtime": {
           "lib/netcoreapp3.1/OpenTK.Audio.OpenAL.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.0.0"
+            "assemblyVersion": "4.9.4.0",
+            "fileVersion": "4.9.4.0"
           }
         }
       },
-      "OpenTK.Compute/4.8.2": {
+      "OpenTK.Compute/4.9.4": {
         "runtime": {
           "lib/netcoreapp3.1/OpenTK.Compute.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.0.0"
+            "assemblyVersion": "4.9.4.0",
+            "fileVersion": "4.9.4.0"
           }
         }
       },
-      "OpenTK.Core/4.8.2": {
+      "OpenTK.Core/4.9.4": {
         "runtime": {
           "lib/netstandard2.1/OpenTK.Core.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.0.0"
+            "assemblyVersion": "4.9.4.0",
+            "fileVersion": "4.9.4.0"
           }
         }
       },
-      "OpenTK.Graphics/4.8.2": {
+      "OpenTK.Graphics/4.9.4": {
         "dependencies": {
-          "OpenTK.Core": "4.8.2",
-          "OpenTK.Mathematics": "4.8.2"
+          "OpenTK.Core": "4.9.4",
+          "OpenTK.Mathematics": "4.9.4"
         },
         "runtime": {
           "lib/netcoreapp3.1/OpenTK.Graphics.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.0.0"
+            "assemblyVersion": "4.9.4.0",
+            "fileVersion": "4.9.4.0"
           }
         }
       },
-      "OpenTK.Input/4.8.2": {
+      "OpenTK.Input/4.9.4": {
         "runtime": {
           "lib/netstandard2.0/OpenTK.Input.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.0.0"
+            "assemblyVersion": "4.9.4.0",
+            "fileVersion": "4.9.4.0"
           }
         }
       },
-      "OpenTK.Mathematics/4.8.2": {
+      "OpenTK.Mathematics/4.9.4": {
         "dependencies": {
           "System.Runtime.CompilerServices.Unsafe": "6.0.0"
         },
         "runtime": {
           "lib/netcoreapp3.1/OpenTK.Mathematics.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.0.0"
+            "assemblyVersion": "4.9.4.0",
+            "fileVersion": "4.9.4.0"
           }
         }
       },
-      "OpenTK.redist.glfw/3.3.9-vs.1": {},
-      "OpenTK.Windowing.Common/4.8.2": {
+      "OpenTK.redist.glfw/3.4.0.44": {},
+      "OpenTK.Windowing.Common/4.9.4": {
         "dependencies": {
-          "OpenTK.Core": "4.8.2",
-          "OpenTK.Mathematics": "4.8.2"
+          "OpenTK.Core": "4.9.4",
+          "OpenTK.Mathematics": "4.9.4"
         },
         "runtime": {
           "lib/netcoreapp3.1/OpenTK.Windowing.Common.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.0.0"
+            "assemblyVersion": "4.9.4.0",
+            "fileVersion": "4.9.4.0"
           }
         }
       },
-      "OpenTK.Windowing.Desktop/4.8.2": {
+      "OpenTK.Windowing.Desktop/4.9.4": {
         "dependencies": {
-          "OpenTK.Core": "4.8.2",
-          "OpenTK.Mathematics": "4.8.2",
-          "OpenTK.Windowing.Common": "4.8.2",
-          "OpenTK.Windowing.GraphicsLibraryFramework": "4.8.2"
+          "OpenTK.Core": "4.9.4",
+          "OpenTK.Mathematics": "4.9.4",
+          "OpenTK.Windowing.Common": "4.9.4",
+          "OpenTK.Windowing.GraphicsLibraryFramework": "4.9.4"
         },
         "runtime": {
           "lib/netcoreapp3.1/OpenTK.Windowing.Desktop.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.0.0"
+            "assemblyVersion": "4.9.4.0",
+            "fileVersion": "4.9.4.0"
           }
         }
       },
-      "OpenTK.Windowing.GraphicsLibraryFramework/4.8.2": {
+      "OpenTK.Windowing.GraphicsLibraryFramework/4.9.4": {
         "dependencies": {
-          "OpenTK.Core": "4.8.2",
-          "OpenTK.redist.glfw": "3.3.9-vs.1"
+          "OpenTK.Core": "4.9.4",
+          "OpenTK.redist.glfw": "3.4.0.44"
         },
         "runtime": {
           "lib/netcoreapp3.1/OpenTK.Windowing.GraphicsLibraryFramework.dll": {
-            "assemblyVersion": "4.0.0.0",
-            "fileVersion": "4.0.0.0"
+            "assemblyVersion": "4.9.4.0",
+            "fileVersion": "4.9.4.0"
           }
         }
       },
-      "protobuf-net/2.4.7": {
+      "protobuf-net/2.4.9": {
         "dependencies": {
           "System.ServiceModel.Primitives": "4.5.3"
         },
         "runtime": {
           "lib/netcoreapp3.1/protobuf-net.dll": {
             "assemblyVersion": "2.4.0.0",
-            "fileVersion": "2.4.7.18"
+            "fileVersion": "2.4.9.1"
           }
         }
       },
       "SharpAvi/3.2.0-vs.1": {
         "runtime": {
-          "lib/net7.0/SharpAvi.dll": {
+          "lib/net8.0/SharpAvi.dll": {
             "assemblyVersion": "3.1.0.0",
             "fileVersion": "3.1.0.0"
           }
@@ -360,10 +354,10 @@
       "SharpAvi.SkiaSharp/3.2.0-vs.1": {
         "dependencies": {
           "SharpAvi": "3.2.0-vs.1",
-          "SkiaSharp": "2.88.7"
+          "SkiaSharp": "3.116.1"
         },
         "runtime": {
-          "lib/net7.0/SharpAvi.SkiaSharp.dll": {
+          "lib/net8.0/SharpAvi.SkiaSharp.dll": {
             "assemblyVersion": "3.1.0.0",
             "fileVersion": "3.1.0.0"
           }
@@ -377,30 +371,27 @@
           }
         }
       },
-      "SkiaSharp/2.88.7": {
+      "SkiaSharp/3.116.1": {
         "dependencies": {
-          "SkiaSharp.NativeAssets.Win32": "2.88.7",
-          "SkiaSharp.NativeAssets.macOS": "2.88.7"
+          "SkiaSharp.NativeAssets.Win32": "3.116.1",
+          "SkiaSharp.NativeAssets.macOS": "3.116.1"
         },
         "runtime": {
-          "lib/net6.0/SkiaSharp.dll": {
-            "assemblyVersion": "2.88.0.0",
-            "fileVersion": "2.88.7.0"
+          "lib/net8.0/SkiaSharp.dll": {
+            "assemblyVersion": "3.116.0.0",
+            "fileVersion": "3.116.1.0"
           }
         }
       },
-      "SkiaSharp.NativeAssets.Linux.NoDependencies/2.88.7": {
-        "dependencies": {
-          "SkiaSharp": "2.88.7"
-        },
+      "SkiaSharp.NativeAssets.Linux.NoDependencies/3.116.1": {
         "native": {
           "runtimes/linux-arm64/native/libSkiaSharp.so": {
             "fileVersion": "0.0.0.0"
           }
         }
       },
-      "SkiaSharp.NativeAssets.macOS/2.88.7": {},
-      "SkiaSharp.NativeAssets.Win32/2.88.7": {},
+      "SkiaSharp.NativeAssets.macOS/3.116.1": {},
+      "SkiaSharp.NativeAssets.Win32/3.116.1": {},
       "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
         "dependencies": {
           "SQLitePCLRaw.lib.e_sqlite3": "2.1.6",
@@ -442,17 +433,10 @@
           }
         }
       },
-      "System.Collections.Immutable/8.0.0": {
-        "runtime": {
-          "lib/net7.0/System.Collections.Immutable.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
-          }
-        }
-      },
+      "System.Collections.Immutable/8.0.0": {},
       "System.Drawing.Common/4.5.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Platforms": "2.1.0",
           "Microsoft.Win32.SystemEvents": "4.5.0"
         },
         "runtime": {
@@ -465,9 +449,9 @@
       "System.Memory/4.5.3": {},
       "System.Private.ServiceModel/4.5.3": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0",
+          "Microsoft.NETCore.Platforms": "2.1.0",
           "System.Reflection.DispatchProxy": "4.5.0",
-          "System.Security.Principal.Windows": "5.0.0"
+          "System.Security.Principal.Windows": "4.5.0"
         },
         "runtime": {
           "runtimes/unix/lib/netstandard2.0/System.Private.ServiceModel.dll": {
@@ -480,22 +464,14 @@
       "System.Reflection.Metadata/8.0.0": {
         "dependencies": {
           "System.Collections.Immutable": "8.0.0"
-        },
-        "runtime": {
-          "lib/net7.0/System.Reflection.Metadata.dll": {
-            "assemblyVersion": "8.0.0.0",
-            "fileVersion": "8.0.23.53103"
-          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/6.0.0": {},
-      "System.Security.AccessControl/5.0.0": {
+      "System.Security.Principal.Windows/4.5.0": {
         "dependencies": {
-          "Microsoft.NETCore.Platforms": "5.0.0",
-          "System.Security.Principal.Windows": "5.0.0"
+          "Microsoft.NETCore.Platforms": "2.1.0"
         }
       },
-      "System.Security.Principal.Windows/5.0.0": {},
       "System.ServiceModel.Primitives/4.5.3": {
         "dependencies": {
           "System.Private.ServiceModel": "4.5.3"
@@ -511,24 +487,19 @@
           }
         }
       },
-      "System.Text.Encodings.Web/7.0.0": {},
-      "System.Text.Json/7.0.4": {
-        "dependencies": {
-          "System.Text.Encodings.Web": "7.0.0"
-        }
-      },
+      "System.Text.Json/8.0.5": {},
       "Tavis.JsonPatch/0.5.3-vs.1": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3"
         },
         "runtime": {
-          "lib/net7.0/Tavis.JsonPatch.dll": {
+          "lib/net8.0/Tavis.JsonPatch.dll": {
             "assemblyVersion": "1.0.0.0",
             "fileVersion": "1.0.0.0"
           }
         }
       },
-      "VintageStory.Native.Linux/1.0.4": {
+      "VintageStory.Native.Linux/1.0.5": {
         "native": {
           "runtimes/linux-arm64/native/libnanosvg.so": {
             "fileVersion": "0.0.0.0"
@@ -540,125 +511,120 @@
       },
       "cairo-sharp/1.0.0": {
         "dependencies": {
-          "SkiaSharp": "2.88.7"
+          "SkiaSharp": "3.116.1"
         },
         "runtime": {
           "cairo-sharp.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": ""
+            "fileVersion": "0.0.0.0"
           }
         }
       },
       "VintagestoryAPI/1.0.0": {
         "dependencies": {
-          "Microsoft.Data.Sqlite.Core": "8.0.3",
+          "Microsoft.Data.Sqlite.Core": "8.0.13",
           "Newtonsoft.Json": "13.0.3",
-          "OpenTK.Windowing.Desktop": "4.8.2",
-          "OpenTK.Windowing.GraphicsLibraryFramework": "4.8.2",
-          "OpenTK.redist.glfw": "3.3.9-vs.1",
-          "SkiaSharp": "2.88.7",
+          "OpenTK.Windowing.Desktop": "4.9.4",
+          "OpenTK.Windowing.GraphicsLibraryFramework": "4.9.4",
+          "SkiaSharp": "3.116.1",
           "cairo-sharp": "1.0.0",
-          "protobuf-net": "2.4.7"
+          "protobuf-net": "2.4.9"
         },
         "runtime": {
           "VintagestoryAPI.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.20.0"
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.21.0.0"
           }
         }
       },
       "VintagestoryLib/1.0.0": {
         "dependencies": {
           "CommandLineParser": "2.9.1",
-          "DnsClient": "1.7.0",
-          "Lib.Harmony.Thin": "2.3.1.1",
-          "Microsoft.CodeAnalysis.CSharp": "4.9.2",
-          "Microsoft.Data.Sqlite": "8.0.3",
-          "Mono.Cecil": "0.11.5",
+          "DnsClient": "1.8.0",
+          "Lib.Harmony.Thin": "2.3.6",
+          "Microsoft.CodeAnalysis.CSharp": "4.12.0",
+          "Microsoft.Data.Sqlite": "8.0.13",
+          "Microsoft.Net.Sdk.Compilers.Toolset": "9.0.300",
+          "Mono.Cecil": "0.11.6",
           "Mono.Nat": "3.0.4",
           "Newtonsoft.Json": "13.0.3",
           "Open.NAT": "2.1.0",
-          "OpenTK": "4.8.2",
+          "OpenTK": "4.9.4",
           "SharpZipLib": "1.4.2",
-          "SkiaSharp": "2.88.7",
+          "SkiaSharp": "3.116.1",
           "Tavis.JsonPatch": "0.5.3-vs.1",
           "VintagestoryAPI": "1.0.0",
           "cairo-sharp": "1.0.0",
-          "protobuf-net": "2.4.7",
+          "protobuf-net": "2.4.9",
           "xplatforminterface": "1.0.0"
         },
         "runtime": {
           "VintagestoryLib.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.20.0"
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.21.0.0"
           }
         }
       },
       "VSCreativeMod/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
-          "OpenTK.Windowing.GraphicsLibraryFramework": "4.8.2",
-          "OpenTK.redist.glfw": "3.3.9-vs.1",
+          "OpenTK.Windowing.GraphicsLibraryFramework": "4.9.4",
           "VintagestoryAPI": "1.0.0",
           "cairo-sharp": "1.0.0",
-          "protobuf-net": "2.4.7"
+          "protobuf-net": "2.4.9"
         },
         "runtime": {
           "VSCreativeMod.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.20.0"
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.21.0.0"
           }
         }
       },
       "VSEssentials/1.0.0": {
         "dependencies": {
           "AnimatedGif": "1.0.5",
-          "Microsoft.Data.Sqlite.Core": "8.0.3",
+          "Microsoft.Data.Sqlite.Core": "8.0.13",
           "Newtonsoft.Json": "13.0.3",
-          "OpenTK.Windowing.GraphicsLibraryFramework": "4.8.2",
-          "OpenTK.redist.glfw": "3.3.9-vs.1",
+          "OpenTK": "4.9.4",
+          "OpenTK.Windowing.GraphicsLibraryFramework": "4.9.4",
           "Tavis.JsonPatch": "0.5.3-vs.1",
           "VintagestoryAPI": "1.0.0",
           "cairo-sharp": "1.0.0",
-          "protobuf-net": "2.4.7"
+          "protobuf-net": "2.4.9"
         },
         "runtime": {
           "VSEssentials.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": ""
+            "fileVersion": "0.0.0.0"
           }
         }
       },
       "VSSurvivalMod/1.0.0": {
         "dependencies": {
           "Newtonsoft.Json": "13.0.3",
-          "OpenTK.Windowing.GraphicsLibraryFramework": "4.8.2",
-          "OpenTK.redist.glfw": "3.3.9-vs.1",
+          "OpenTK.Windowing.GraphicsLibraryFramework": "4.9.4",
           "VSCreativeMod": "1.0.0",
           "VSEssentials": "1.0.0",
           "VintagestoryAPI": "1.0.0",
           "cairo-sharp": "1.0.0",
-          "protobuf-net": "2.4.7"
+          "protobuf-net": "2.4.9"
         },
         "runtime": {
           "VSSurvivalMod.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": "1.20.0"
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.21.0.0"
           }
         }
       },
       "xplatforminterface/1.0.0": {
         "dependencies": {
-          "Eto.Forms": "2.8.3",
-          "OpenTK": "4.8.2",
+          "Eto.Forms": "2.9.0",
+          "OpenTK": "4.9.4",
           "SharpAvi": "3.2.0-vs.1",
           "SharpAvi.SkiaSharp": "3.2.0-vs.1",
           "VintagestoryAPI": "1.0.0"
         },
         "runtime": {
           "xplatforminterface.dll": {
-            "assemblyVersion": "1.0.0",
-            "fileVersion": ""
+            "fileVersion": "0.0.0.0"
           }
         }
       },
@@ -674,7 +640,7 @@
         "runtime": {
           "VSEssentials.dll": {
             "assemblyVersion": "1.0.0.0",
-            "fileVersion": "1.20.0.0"
+            "fileVersion": "1.21.0.0"
           }
         }
       },
@@ -716,26 +682,26 @@
       "path": "commandlineparser/2.9.1",
       "hashPath": "commandlineparser.2.9.1.nupkg.sha512"
     },
-    "DnsClient/1.7.0": {
+    "DnsClient/1.8.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-2hrXR83b5g6/ZMJOA36hXp4t56yb7G1mF3Hg6IkrHxvtyaoXRn2WVdgDPN3V8+GugOlUBbTWXgPaka4dXw1QIg==",
-      "path": "dnsclient/1.7.0",
-      "hashPath": "dnsclient.1.7.0.nupkg.sha512"
+      "sha512": "sha512-RRwtaCXkXWsx0mmsReGDqCbRLtItfUbkRJlet1FpdciVhyMGKcPd57T1+8Jki9ojHlq9fntVhXQroOOgRak8DQ==",
+      "path": "dnsclient/1.8.0",
+      "hashPath": "dnsclient.1.8.0.nupkg.sha512"
     },
-    "Eto.Forms/2.8.3": {
+    "Eto.Forms/2.9.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-JlYqTXM9quui0/35H73R4r55ZtDfUA3sOZZuhvkNgzDTXp59DDvXDxZ7lRD6fge+GTumA+5AscmF9SWwgK5FUg==",
-      "path": "eto.forms/2.8.3",
-      "hashPath": "eto.forms.2.8.3.nupkg.sha512"
+      "sha512": "sha512-kNluDQuIfgn6B19scKcXT4SDIwwqtQlwGYlxMavFhPilkye1vMu3XtFYdPFIMoqEgZSAzdJkA9rceSd/xmFlyg==",
+      "path": "eto.forms/2.9.0",
+      "hashPath": "eto.forms.2.9.0.nupkg.sha512"
     },
-    "Lib.Harmony.Thin/2.3.1.1": {
+    "Lib.Harmony.Thin/2.3.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-u30qWlXPBaJpTnpaTZTJpgoNfPO8sMWIA49V8whtMvtRlHZ4KdKIi220FmYM9HNm05/QDM329cTqObqLhTA27A==",
-      "path": "lib.harmony.thin/2.3.1.1",
-      "hashPath": "lib.harmony.thin.2.3.1.1.nupkg.sha512"
+      "sha512": "sha512-4dgnOvscjj804ELWbHr1isb6JFmhr+hvNBQzOnFS/Eb7Pu1cQqOQeoYzRjon35kJVfaw5niKbYrZ6EWp2SRD+A==",
+      "path": "lib.harmony.thin/2.3.6",
+      "hashPath": "lib.harmony.thin.2.3.6.nupkg.sha512"
     },
     "Microsoft.CodeAnalysis.Analyzers/3.3.4": {
       "type": "package",
@@ -744,47 +710,47 @@
       "path": "microsoft.codeanalysis.analyzers/3.3.4",
       "hashPath": "microsoft.codeanalysis.analyzers.3.3.4.nupkg.sha512"
     },
-    "Microsoft.CodeAnalysis.Common/4.9.2": {
+    "Microsoft.CodeAnalysis.Common/4.12.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-M5PThug7b2AdxL7xKmQs50KzAQTl9jENw5jMT3iUt16k+DAFlw1S87juU3UuPs3gvBm8trMBSOEvSFDr31c9Vw==",
-      "path": "microsoft.codeanalysis.common/4.9.2",
-      "hashPath": "microsoft.codeanalysis.common.4.9.2.nupkg.sha512"
+      "sha512": "sha512-c1kNYihL2gdcuU1dqm8R8YeA4YkB43TpU3pa2r66Uooh6AAhRtENzj9A4Kj0a+H8JDDyuTjNZql9XlVUzV+UjA==",
+      "path": "microsoft.codeanalysis.common/4.12.0",
+      "hashPath": "microsoft.codeanalysis.common.4.12.0.nupkg.sha512"
     },
-    "Microsoft.CodeAnalysis.CSharp/4.9.2": {
+    "Microsoft.CodeAnalysis.CSharp/4.12.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-HGIo7E9Mf3exAJbUdYpDFfLoYkSVaHDJXPyusWTYUTBaOPCowGw+Gap5McE1w+K+ryIXre72oiqL88sQHmHBmg==",
-      "path": "microsoft.codeanalysis.csharp/4.9.2",
-      "hashPath": "microsoft.codeanalysis.csharp.4.9.2.nupkg.sha512"
+      "sha512": "sha512-30vVQ1MizeC22iEdEvI2w0eTIYG43/L20yBzuQH01xKzJgHAoWehzI2F8u07o4mXh4DGMOjQF7aEm0zzvsG3Mg==",
+      "path": "microsoft.codeanalysis.csharp/4.12.0",
+      "hashPath": "microsoft.codeanalysis.csharp.4.12.0.nupkg.sha512"
     },
-    "Microsoft.Data.Sqlite/8.0.3": {
+    "Microsoft.Data.Sqlite/8.0.13": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ZMfnnn5Lr8xRhp9HuEfuMSknJaD+X8ajGnqxyTcmwJbkxH9l4uPjd8WumYPVuamHxiI/JAXkFStYN2IPuAneJw==",
-      "path": "microsoft.data.sqlite/8.0.3",
-      "hashPath": "microsoft.data.sqlite.8.0.3.nupkg.sha512"
+      "sha512": "sha512-WOpv/jt4JHlR0Emd5gGZEaBIfYVMMCTINT4T94fRwOzemNovZaJQo1W3pKfKnRhZE/0UEWko2ewdgnuA/WsPlg==",
+      "path": "microsoft.data.sqlite/8.0.13",
+      "hashPath": "microsoft.data.sqlite.8.0.13.nupkg.sha512"
     },
-    "Microsoft.Data.Sqlite.Core/8.0.3": {
+    "Microsoft.Data.Sqlite.Core/8.0.13": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-1euU97SivROH7nVIh2c/V63e0nQ73Txr/YlysB7fJuTV8LcfeL9WO1gdiJWcRIDoq8/McxcTc7evY6JJ1pD95w==",
-      "path": "microsoft.data.sqlite.core/8.0.3",
-      "hashPath": "microsoft.data.sqlite.core.8.0.3.nupkg.sha512"
+      "sha512": "sha512-OpNpA2EPMzXXnftLg2JcVGBDRbPLLmerhoTIjQ78rLTdqUfIJQ0Schn+Ev5ngmMFMD2kpN9bOqkgbS+csrn5Vg==",
+      "path": "microsoft.data.sqlite.core/8.0.13",
+      "hashPath": "microsoft.data.sqlite.core.8.0.13.nupkg.sha512"
     },
-    "Microsoft.NETCore.Platforms/5.0.0": {
+    "Microsoft.Net.Sdk.Compilers.Toolset/9.0.300": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-VyPlqzH2wavqquTcYpkIIAQ6WdenuKoFN0BdYBbCWsclXacSOHNQn66Gt4z5NBqEYW0FAPm5rlvki9ZiCij5xQ==",
-      "path": "microsoft.netcore.platforms/5.0.0",
-      "hashPath": "microsoft.netcore.platforms.5.0.0.nupkg.sha512"
+      "sha512": "sha512-M5BC6bp9Sc3Og5LG3au1PkEXCO2WYMEaOwROwvN4WJWOuob0YpFVk0En/6FXeNDYE7rE1xAwEk5NxmuklWC6kA==",
+      "path": "microsoft.net.sdk.compilers.toolset/9.0.300",
+      "hashPath": "microsoft.net.sdk.compilers.toolset.9.0.300.nupkg.sha512"
     },
-    "Microsoft.Win32.Registry/5.0.0": {
+    "Microsoft.NETCore.Platforms/2.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dDoKi0PnDz31yAyETfRntsLArTlVAVzUzCIvvEDsDsucrl33Dl8pIJG06ePTJTI3tGpeyHS9Cq7Foc/s4EeKcg==",
-      "path": "microsoft.win32.registry/5.0.0",
-      "hashPath": "microsoft.win32.registry.5.0.0.nupkg.sha512"
+      "sha512": "sha512-ok+RPAtESz/9MUXeIEz6Lv5XAGQsaNmEYXMsgVALj4D7kqC8gveKWXWXbufLySR2fWrwZf8smyN5RmHu0e4BHA==",
+      "path": "microsoft.netcore.platforms/2.1.0",
+      "hashPath": "microsoft.netcore.platforms.2.1.0.nupkg.sha512"
     },
     "Microsoft.Win32.SystemEvents/4.5.0": {
       "type": "package",
@@ -793,12 +759,12 @@
       "path": "microsoft.win32.systemevents/4.5.0",
       "hashPath": "microsoft.win32.systemevents.4.5.0.nupkg.sha512"
     },
-    "Mono.Cecil/0.11.5": {
+    "Mono.Cecil/0.11.6": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-fxfX+0JGTZ8YQeu1MYjbBiK2CYTSzDyEeIixt+yqKKTn7FW8rv7JMY70qevup4ZJfD7Kk/VG/jDzQQTpfch87g==",
-      "path": "mono.cecil/0.11.5",
-      "hashPath": "mono.cecil.0.11.5.nupkg.sha512"
+      "sha512": "sha512-f33RkDtZO8VlGXCtmQIviOtxgnUdym9xx/b1p9h91CRGOsJFxCFOFK1FDbVt1OCf1aWwYejUFa2MOQyFWTFjbA==",
+      "path": "mono.cecil/0.11.6",
+      "hashPath": "mono.cecil.0.11.6.nupkg.sha512"
     },
     "Mono.Nat/3.0.4": {
       "type": "package",
@@ -807,33 +773,33 @@
       "path": "mono.nat/3.0.4",
       "hashPath": "mono.nat.3.0.4.nupkg.sha512"
     },
-    "MonoMod.Backports/1.1.0": {
+    "MonoMod.Backports/1.1.2": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-GUAjCrCZEddqHKHFA7Lh61PgTzoKY7gfBShFe0hQe0p8iynHhBK3TWGyRi+QIw/PGfaRPwx6c33CPGFURBVM6g==",
-      "path": "monomod.backports/1.1.0",
-      "hashPath": "monomod.backports.1.1.0.nupkg.sha512"
+      "sha512": "sha512-baYlNy8n8kmaNhNvqmZ/dIPOeO1r9//dG1i2WbunMWtWZ2EKtIgmXaS+ZzphzTsikkGnoD4Jwr5g0TVdpDjgpw==",
+      "path": "monomod.backports/1.1.2",
+      "hashPath": "monomod.backports.1.1.2.nupkg.sha512"
     },
-    "MonoMod.Core/1.1.0": {
+    "MonoMod.Core/1.2.3": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-Ks8RntZGVcktr2QF/AovTEbuOkrgXz6omjrvT5LRveOIQJuy+IFuEQPBVWu+cSKVIoZD5XkpRFvlVrItgPIrXw==",
-      "path": "monomod.core/1.1.0",
-      "hashPath": "monomod.core.1.1.0.nupkg.sha512"
+      "sha512": "sha512-Hl3/giQTIR7ejAR6fBwsMOy4AXsYYUVXsKbEfMCinw8aIdUJusMO9bf3mQ+1emP3gpqdfXaimQTHkg0SXI1nvg==",
+      "path": "monomod.core/1.2.3",
+      "hashPath": "monomod.core.1.2.3.nupkg.sha512"
     },
-    "MonoMod.ILHelpers/1.0.1": {
+    "MonoMod.ILHelpers/1.1.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-6djj/Hz+/eTomo1H/sJEJNxBz2ZdhXjvH0MOmyU2xRtbjaIfBQuyVV0zNUbJhMY/8qoWrz7WXfskfFhdaY0afA==",
-      "path": "monomod.ilhelpers/1.0.1",
-      "hashPath": "monomod.ilhelpers.1.0.1.nupkg.sha512"
+      "sha512": "sha512-L2FWjhTrv7tcIxshfZ+M3OcaNr4cNw0IwiVZEgwqRnZ5QAN3+RrNJ8ZwCzwXUWyPDqooJxMcjjg8PsSYUiNBjQ==",
+      "path": "monomod.ilhelpers/1.1.0",
+      "hashPath": "monomod.ilhelpers.1.1.0.nupkg.sha512"
     },
-    "MonoMod.Utils/25.0.4": {
+    "MonoMod.Utils/25.0.8": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cB94MaZtFD9u4clYEFTwM4jGXnJnzXsxYF3yBpMZKHhXOas66tMF2frbdYte023i0MH4C5iRJbDjxHmA4x5VgA==",
-      "path": "monomod.utils/25.0.4",
-      "hashPath": "monomod.utils.25.0.4.nupkg.sha512"
+      "sha512": "sha512-8wfyawgvGqUvfchAj7/gPazAjXO8CWNyXH+C0az+hgJH/80zVL5LxDhQMz0NQTyoCEJWU6gNBGc7CL+G7vCbaQ==",
+      "path": "monomod.utils/25.0.8",
+      "hashPath": "monomod.utils.25.0.8.nupkg.sha512"
     },
     "Newtonsoft.Json/13.0.3": {
       "type": "package",
@@ -849,89 +815,89 @@
       "path": "open.nat/2.1.0",
       "hashPath": "open.nat.2.1.0.nupkg.sha512"
     },
-    "OpenTK/4.8.2": {
+    "OpenTK/4.9.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-s2bqkD0glaX5Zbrv0Nj91zcefGrwq+nAp7SnXw14Z22Wj1nVE9CWkEyKX8tha1EdxqSRwKdP6gi+xzZXs4nK4Q==",
-      "path": "opentk/4.8.2",
-      "hashPath": "opentk.4.8.2.nupkg.sha512"
+      "sha512": "sha512-fp9ZI6akO4ZuIGzuUE0QRU5zRJhXbSXa5racehFoTdvodhRDecXCOcH68mRsZaMwnxLO9ECnf2LGM9BmiJKvhw==",
+      "path": "opentk/4.9.4",
+      "hashPath": "opentk.4.9.4.nupkg.sha512"
     },
-    "OpenTK.Audio.OpenAL/4.8.2": {
+    "OpenTK.Audio.OpenAL/4.9.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-/Xe0luzJiVOvJ8YXGMY/YLZsGsb0/7Ms09isb/WxkKWjLyuiB2OIflZ49VHmumZpQDz2PUgwqOt2fucviLOmuw==",
-      "path": "opentk.audio.openal/4.8.2",
-      "hashPath": "opentk.audio.openal.4.8.2.nupkg.sha512"
+      "sha512": "sha512-N/SCeFrLJ3ckUbshyfsonbtjmDxh55urGiR+Fe1iPkTWyEW5OKfQRoIOZyjEva/4eRqOXdt3bV2ka4IJ2+JvZw==",
+      "path": "opentk.audio.openal/4.9.4",
+      "hashPath": "opentk.audio.openal.4.9.4.nupkg.sha512"
     },
-    "OpenTK.Compute/4.8.2": {
+    "OpenTK.Compute/4.9.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-n3gBbXOTCkvkNjSOKkVpoxfF/QXzo+cPWKtzObm4f/J+5mOE8odHKXgPn1765Tnu2Ou2ImvdXi/bUFQt/V5Qiw==",
-      "path": "opentk.compute/4.8.2",
-      "hashPath": "opentk.compute.4.8.2.nupkg.sha512"
+      "sha512": "sha512-30G+/9mtrUJwX5xcRyz2qcujQ2s+wDm+C7qg6jDsLyGWUdND3j/vD+nlQ6tuKuAow51zWduFVujPkaS8VrBinQ==",
+      "path": "opentk.compute/4.9.4",
+      "hashPath": "opentk.compute.4.9.4.nupkg.sha512"
     },
-    "OpenTK.Core/4.8.2": {
+    "OpenTK.Core/4.9.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BS5IM1W/BK9BtmsEnYT/RGv+KDK0Zrnw8nDDGvK45ywBjMLv+qBRB+Vkx5sQ4Jjy7btLxxqrPHmT3wt5N/PcxA==",
-      "path": "opentk.core/4.8.2",
-      "hashPath": "opentk.core.4.8.2.nupkg.sha512"
+      "sha512": "sha512-/4Mn3ABf1xNfHMzDFUapVY2K4PG3oP/oWTQJlK0JacT20HwsNe/HPIAhnAJWz27EM3ukOJDtqyQRukvQKqkcLw==",
+      "path": "opentk.core/4.9.4",
+      "hashPath": "opentk.core.4.9.4.nupkg.sha512"
     },
-    "OpenTK.Graphics/4.8.2": {
+    "OpenTK.Graphics/4.9.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-qpbyWqdO+yEFVFinKwEWKgi1Jgd0fVSgHbB7d5I8ozI9RL/SKZSNmJDxLjTMSQImJtFixmATcLEWwvEceJ/JsQ==",
-      "path": "opentk.graphics/4.8.2",
-      "hashPath": "opentk.graphics.4.8.2.nupkg.sha512"
+      "sha512": "sha512-yZeq5swIsRnNzifVA9fLtl+qMAQvmYiF1b7U/XQLARmmU4PYQ23lPNahqAdD22XzA21ew7eG3yDyPLkYw+hDBA==",
+      "path": "opentk.graphics/4.9.4",
+      "hashPath": "opentk.graphics.4.9.4.nupkg.sha512"
     },
-    "OpenTK.Input/4.8.2": {
+    "OpenTK.Input/4.9.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BGs7STF0/o4kNJ1pWXko4I3IwEhieOHVgJFzXzo5m1tI4zMKjBqmzuc4GGfCu+Gtiv33vRYx3dt9f659nr5J8w==",
-      "path": "opentk.input/4.8.2",
-      "hashPath": "opentk.input.4.8.2.nupkg.sha512"
+      "sha512": "sha512-njbC7fySQEK30rjOQ1uRjlycEkLw+UVoPT3nRQ8uBPNLotDgr47NEcPEjmJyX1ll+pm/wmtcvJIYHBRi1HbOqg==",
+      "path": "opentk.input/4.9.4",
+      "hashPath": "opentk.input.4.9.4.nupkg.sha512"
     },
-    "OpenTK.Mathematics/4.8.2": {
+    "OpenTK.Mathematics/4.9.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-A8D3eBWi/LKndvTQQ9o9uwyQJUjGORfWCn/gOvX0jIwmTctkLGnOdw5kw4JbRnzfrhZoSIaqZ7MYWWhIkasORw==",
-      "path": "opentk.mathematics/4.8.2",
-      "hashPath": "opentk.mathematics.4.8.2.nupkg.sha512"
+      "sha512": "sha512-2ucF25RVJzdSLXUHgjAgB058gVfSgerrR5pLCn9J+Bnyqi45NrBfPu9wyTT35ZCjYwLJCu/HJMnzKFLjq+uFIA==",
+      "path": "opentk.mathematics/4.9.4",
+      "hashPath": "opentk.mathematics.4.9.4.nupkg.sha512"
     },
-    "OpenTK.redist.glfw/3.3.9-vs.1": {
+    "OpenTK.redist.glfw/3.4.0.44": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-ESBxBJsy03285x7f1m2kOEvKB8iB7gf61E8QyHHnMzlUDYEuX6N6Iw4YnBgESaq5kQ8ohNpZcMCROfgzZeSCVQ==",
-      "path": "opentk.redist.glfw/3.3.9-vs.1",
-      "hashPath": "opentk.redist.glfw.3.3.9-vs.1.nupkg.sha512"
+      "sha512": "sha512-HEjbdk0wWxSRrXHl3DSmrA8trecndgJpAHHloJJ1vPseNfeu/ynmrH/LturU1KguRn4r3IzZ81UIp5xRjnyahg==",
+      "path": "opentk.redist.glfw/3.4.0.44",
+      "hashPath": "opentk.redist.glfw.3.4.0.44.nupkg.sha512"
     },
-    "OpenTK.Windowing.Common/4.8.2": {
+    "OpenTK.Windowing.Common/4.9.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-cE7w2AboX/cxtOl7UWa1rTnH4uUoCEg9rtppN6d1/8GOfKUW8LjO6bjEePrRk9LzRZL+5dky3nfw6ZONn5ItyA==",
-      "path": "opentk.windowing.common/4.8.2",
-      "hashPath": "opentk.windowing.common.4.8.2.nupkg.sha512"
+      "sha512": "sha512-xNjvKjoptAh6w5/YYIx/9sNv3/A2VVlTahlekTlLP+qfNyig+0jBuLHO4bWELWZ7Ta3Y1m/2Pvk0Z1KCG8VZOA==",
+      "path": "opentk.windowing.common/4.9.4",
+      "hashPath": "opentk.windowing.common.4.9.4.nupkg.sha512"
     },
-    "OpenTK.Windowing.Desktop/4.8.2": {
+    "OpenTK.Windowing.Desktop/4.9.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-SlEuiAllLgE03/jJbloCOD1iNtBpnhMuVb510ccA/ILp//mzXHeRKsz7zFJ1ct7yIxe5U2WExXx52Tan++p11Q==",
-      "path": "opentk.windowing.desktop/4.8.2",
-      "hashPath": "opentk.windowing.desktop.4.8.2.nupkg.sha512"
+      "sha512": "sha512-LBX4jwCneISIBST2vWYLI8cdR8tLwHNcswK1decElbTAXMB+H6uFIoF41ld+af4q3TsHpjR5fyP2ilbTK3T0rA==",
+      "path": "opentk.windowing.desktop/4.9.4",
+      "hashPath": "opentk.windowing.desktop.4.9.4.nupkg.sha512"
     },
-    "OpenTK.Windowing.GraphicsLibraryFramework/4.8.2": {
+    "OpenTK.Windowing.GraphicsLibraryFramework/4.9.4": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-o50PgKL8G0Pqs7Lo7hu1ru+5X5l03aht5jaeik7McXFgVaBJzMLhMhZkiferx4bbcC9Rq597BOknDwqE/bsLOw==",
-      "path": "opentk.windowing.graphicslibraryframework/4.8.2",
-      "hashPath": "opentk.windowing.graphicslibraryframework.4.8.2.nupkg.sha512"
+      "sha512": "sha512-wNlxnPrD7veMV8EGTTi/sCDeg5V8w/18vC0aw0Ao69eNneD7YSq9Ad+C389rVA957eHNR6Xieu/5qzHQeEOyxQ==",
+      "path": "opentk.windowing.graphicslibraryframework/4.9.4",
+      "hashPath": "opentk.windowing.graphicslibraryframework.4.9.4.nupkg.sha512"
     },
-    "protobuf-net/2.4.7": {
+    "protobuf-net/2.4.9": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-0+zS9IjL7DIcnJ1tz0KQ3luhS4BlmvGzX04dju7ejhX3P91AZ33AMF3nL6z3Hh2bB5+JW6U/Fmo8PrmheKnm4g==",
-      "path": "protobuf-net/2.4.7",
-      "hashPath": "protobuf-net.2.4.7.nupkg.sha512"
+      "sha512": "sha512-zyWhSHe6ekdhtpODDSFuBJsHrCarGTncLkI3TmHBRnHH1jVjiwYcK/G1nLHT14CuKq5d3Du2uKWo1zrmuwS7yw==",
+      "path": "protobuf-net/2.4.9",
+      "hashPath": "protobuf-net.2.4.9.nupkg.sha512"
     },
     "SharpAvi/3.2.0-vs.1": {
       "type": "package",
@@ -954,33 +920,33 @@
       "path": "sharpziplib/1.4.2",
       "hashPath": "sharpziplib.1.4.2.nupkg.sha512"
     },
-    "SkiaSharp/2.88.7": {
+    "SkiaSharp/3.116.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-LJHAMrbWO00J7jXWLWehyjqFo29T4VzABimfJb4nICqpEe3c/KvQGWL4ItON8ymzhxYOeFgyxeRzuNzO4GHSug==",
-      "path": "skiasharp/2.88.7",
-      "hashPath": "skiasharp.2.88.7.nupkg.sha512"
+      "sha512": "sha512-DNDwbRjP+aMo27dV2h/uHCVTcWubWWxHnPLiePNyl24f4Pv43mQ8AQQeseOrKR+J3AOCEs6t0sUjo0aa3j3RWQ==",
+      "path": "skiasharp/3.116.1",
+      "hashPath": "skiasharp.3.116.1.nupkg.sha512"
     },
-    "SkiaSharp.NativeAssets.Linux.NoDependencies/2.88.7": {
+    "SkiaSharp.NativeAssets.Linux.NoDependencies/3.116.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-KkMftfAz1lGPnuhyecuLJzeyvMjXtHp9cYVQc/oeLhF8KYrxtUxRy5LOX5oROhyLHy/CyqEl9MoAhqmSH7cV7g==",
-      "path": "skiasharp.nativeassets.linux.nodependencies/2.88.7",
-      "hashPath": "skiasharp.nativeassets.linux.nodependencies.2.88.7.nupkg.sha512"
+      "sha512": "sha512-yER+zmZzK4G642j0fbOBg3ZfLUs93o1kmHEXEOPZgMCzGVSmLvGmsFYIIlIQaMEpWY/TktFiZGqEKkT1RJ/YjQ==",
+      "path": "skiasharp.nativeassets.linux.nodependencies/3.116.1",
+      "hashPath": "skiasharp.nativeassets.linux.nodependencies.3.116.1.nupkg.sha512"
     },
-    "SkiaSharp.NativeAssets.macOS/2.88.7": {
+    "SkiaSharp.NativeAssets.macOS/3.116.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-3jNzco4VjcYPFNxR9aNWcgweFXbTSdM1VpNRzCS4X0i1A1OuNqcaulrAvmntNpujeWxHo9e6WGh6FN8Jf5+XhA==",
-      "path": "skiasharp.nativeassets.macos/2.88.7",
-      "hashPath": "skiasharp.nativeassets.macos.2.88.7.nupkg.sha512"
+      "sha512": "sha512-3KPvpKysDmEMt0NnAZPX5U6KFk0LmG/72/IjAIJemIksIZ0Tjs9pGpr3L+zboVCv1MLVoJLKl3nJDXUG6Jda6A==",
+      "path": "skiasharp.nativeassets.macos/3.116.1",
+      "hashPath": "skiasharp.nativeassets.macos.3.116.1.nupkg.sha512"
     },
-    "SkiaSharp.NativeAssets.Win32/2.88.7": {
+    "SkiaSharp.NativeAssets.Win32/3.116.1": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-BCXmWdQ0oVck9vRwC8U3ocSaTHEx28VB+6qw9OxGIMQ86iO5bp4Flqk3IXH0l9Pbr7vWAUOpI212iaL9mTaUZQ==",
-      "path": "skiasharp.nativeassets.win32/2.88.7",
-      "hashPath": "skiasharp.nativeassets.win32.2.88.7.nupkg.sha512"
+      "sha512": "sha512-dRQ75MCI8oz6zAs2Y1w6pq6ARs4MhdNG+gf3doOxOxdnueDXffQLGQIxON54GDoxc0WjKOoHMKBR4DhaduwwQw==",
+      "path": "skiasharp.nativeassets.win32/3.116.1",
+      "hashPath": "skiasharp.nativeassets.win32.3.116.1.nupkg.sha512"
     },
     "SQLitePCLRaw.bundle_e_sqlite3/2.1.6": {
       "type": "package",
@@ -1059,19 +1025,12 @@
       "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
     },
-    "System.Security.AccessControl/5.0.0": {
+    "System.Security.Principal.Windows/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dagJ1mHZO3Ani8GH0PHpPEe/oYO+rVdbQjvjJkBRNQkX4t0r1iaeGn8+/ybkSLEan3/slM0t59SVdHzuHf2jmw==",
-      "path": "system.security.accesscontrol/5.0.0",
-      "hashPath": "system.security.accesscontrol.5.0.0.nupkg.sha512"
-    },
-    "System.Security.Principal.Windows/5.0.0": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-t0MGLukB5WAVU9bO3MGzvlGnyJPgUlcwerXn1kzBRjwLKixT96XV0Uza41W49gVd8zEMFu9vQEFlv0IOrytICA==",
-      "path": "system.security.principal.windows/5.0.0",
-      "hashPath": "system.security.principal.windows.5.0.0.nupkg.sha512"
+      "sha512": "sha512-U77HfRXlZlOeIXd//Yoj6Jnk8AXlbeisf1oq1os+hxOGVnuG+lGSfGqTwTZBoORFF6j/0q7HXIl8cqwQ9aUGqQ==",
+      "path": "system.security.principal.windows/4.5.0",
+      "hashPath": "system.security.principal.windows.4.5.0.nupkg.sha512"
     },
     "System.ServiceModel.Primitives/4.5.3": {
       "type": "package",
@@ -1080,19 +1039,12 @@
       "path": "system.servicemodel.primitives/4.5.3",
       "hashPath": "system.servicemodel.primitives.4.5.3.nupkg.sha512"
     },
-    "System.Text.Encodings.Web/7.0.0": {
+    "System.Text.Json/8.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-OP6umVGxc0Z0MvZQBVigj4/U31Pw72ITihDWP9WiWDm+q5aoe0GaJivsfYGq53o6dxH7DcXWiCTl7+0o2CGdmg==",
-      "path": "system.text.encodings.web/7.0.0",
-      "hashPath": "system.text.encodings.web.7.0.0.nupkg.sha512"
-    },
-    "System.Text.Json/7.0.4": {
-      "type": "package",
-      "serviceable": true,
-      "sha512": "sha512-30Qbrv661XW3zWfSgwgk54KPEBbM9eXYs3fRDjWfAxPp3oogHTUvsVFiUK20lyUDmJskho9SEZvUfsmcU8x16g==",
-      "path": "system.text.json/7.0.4",
-      "hashPath": "system.text.json.7.0.4.nupkg.sha512"
+      "sha512": "sha512-0f1B50Ss7rqxXiaBJyzUu9bWFOO2/zSlifZ/UNMdiIpDYe4cY4LQQicP4nirK1OS31I43rn062UIJ1Q9bpmHpg==",
+      "path": "system.text.json/8.0.5",
+      "hashPath": "system.text.json.8.0.5.nupkg.sha512"
     },
     "Tavis.JsonPatch/0.5.3-vs.1": {
       "type": "package",
@@ -1101,12 +1053,12 @@
       "path": "tavis.jsonpatch/0.5.3-vs.1",
       "hashPath": "tavis.jsonpatch.0.5.3-vs.1.nupkg.sha512"
     },
-    "VintageStory.Native.Linux/1.0.4": {
+    "VintageStory.Native.Linux/1.0.5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-dC3YNP3/EK+cQ098luCboXXMyYAuipqTgz1VJDdvXh/ah1cFmqBnGkX8MWRMneROwq5oxBWkbwL6I55ksgETMQ==",
-      "path": "vintagestory.native.linux/1.0.4",
-      "hashPath": "vintagestory.native.linux.1.0.4.nupkg.sha512"
+      "sha512": "sha512-sqc9HUy7tHavljNlzYsb4TSovDq3adZWSUOb6RWGBVwnap4KxSTakLjie8mXA26ZOCYi4Mz4jNXiclbcVAaD/Q==",
+      "path": "vintagestory.native.linux/1.0.5",
+      "hashPath": "vintagestory.native.linux.1.0.5.nupkg.sha512"
     },
     "cairo-sharp/1.0.0": {
       "type": "project",
