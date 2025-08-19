@@ -25,10 +25,10 @@ COPY ./server .
 # final runtime image
 FROM mcr.microsoft.com/dotnet/runtime:8.0
 
-COPY --from=build /opt/vintagestory /opt/vintagestory
+WORKDIR /app
+COPY --from=build /opt/vintagestory .
 ENV VSDATADIR=/home/app/.config/VintagestoryData
-RUN mkdir -p $VSDATADIR && chown -R app:app $VSDATADIR /opt/vintagestory
+RUN mkdir -p $VSDATADIR 
+RUN chown -R app:app $VSDATADIR
 
-USER app
-WORKDIR /opt/vintagestory
-ENTRYPOINT ["dotnet", "/opt/vintagestory/VintagestoryServer.dll"]
+ENTRYPOINT ["dotnet", "/app/VintagestoryServer.dll"]
