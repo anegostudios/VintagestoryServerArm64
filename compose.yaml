@@ -1,6 +1,10 @@
 services:
   vsserver:
-    build: .
+    build:
+      context: .
+      #args:
+      #  VS_VERSION: "1.21.0-rc.6"
+      #  VS_VERSION_TYPE: "unstable"
     ports:
       - "42420:42420"
       - "42420:42420/udp"
