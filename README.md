@@ -6,6 +6,7 @@ This repository houses the necessary files to get a working VintagestoryServer .
 
 #### Note
 Mods using Harmony will not work properly on arm64 servers since Harmony is not compatible with arm64.
+As of 1.21 the release includes Harmony 2.4.0 which allows mods to work also on arm64.
 
 ### Requirements
 - Linux Arm64 server
