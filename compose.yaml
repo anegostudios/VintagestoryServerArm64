@@ -16,7 +16,7 @@ services:
     # warning: you have to copy before you change anything since your data is only inside the container and as soon you remove it, it will be gone
 
     # use the below line to mount a host folder so you can easily see the contents and modify it
-    #volumes:
-    #  - /your/host/path:/home/vintagestory/.config/VintagestoryData/
+    volumes:
+      - ./data:/home/vintagestory/.config/VintagestoryData/
 volumes:
   vsdata:
