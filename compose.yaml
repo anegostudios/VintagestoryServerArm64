@@ -3,7 +3,7 @@ services:
     build:
       context: .
       #args:
-      #  VS_VERSION: "1.21.0-rc.6"
+      #  VS_VERSION: "1.21.1-rc.1"
       #  VS_VERSION_TYPE: "unstable"
     ports:
       - "42420:42420"
@@ -11,8 +11,12 @@ services:
     restart: on-failure
     stdin_open: true
     tty: true
-    volumes:
-      - vsdata:/home/app/.config/VintagestoryData
-      - ./serverconfig.json:/home/app/.config/VintagestoryData/serverconfig.json
+    # when moving to the host mounted folder you may need to use 'docker compose cp vsserver:/root/.config/VintagestoryData /your/host/path' 
+    # to copy the files from the old location to the host and then change it the new one so you do not loose your data
+    # warning: you have to copy before you change anything since your data is only inside the container and as soon you remove it, it will be gone
+
+    # use the below line to mount a host folder so you can easily see the contents and modify it
+    #volumes:
+    #  - /your/host/path:/home/vintagestory/.config/VintagestoryData/
 volumes:
   vsdata:

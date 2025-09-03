@@ -1,5 +1,5 @@
 # syntax=docker/dockerfile:1
-FROM debian:bookworm-slim as build
+FROM debian:bookworm-slim AS build
 ARG VS_VERSION
 ARG VS_VERSION_TYPE
 SHELL ["/bin/bash", "-c"]
@@ -27,8 +27,11 @@ FROM mcr.microsoft.com/dotnet/runtime:8.0
 
 WORKDIR /app
 COPY --from=build /opt/vintagestory .
-ENV VSDATADIR=/home/app/.config/VintagestoryData
-RUN mkdir -p $VSDATADIR 
-RUN chown -R app:app $VSDATADIR
 
+RUN useradd -m -u 1000 -U vintagestory
+ENV HOME=/home/vintagestory
+ENV VSDATADIR=$HOME/.config/VintagestoryData
+RUN mkdir -p $VSDATADIR && chown -R vintagestory:vintagestory /app $VSDATADIR
+
+USER vintagestory
 ENTRYPOINT ["dotnet", "/app/VintagestoryServer.dll"]
