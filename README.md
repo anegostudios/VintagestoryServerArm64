@@ -1,16 +1,15 @@
 # VintagestoryServer Linux-Arm64
 
-This repository houses the necessary files to get a working VintagestoryServer .NET 8.0 running on Linux Arm-64 architecture.
+This repository houses the necessary files to get a working VintagestoryServer .NET 10.0 running on Linux Arm-64 architecture.
 
 ## Installation
 
 #### Note
-Mods using Harmony will not work properly on arm64 servers since Harmony is not compatible with arm64.
 As of 1.21 the release includes Harmony 2.4.0 which allows mods to work also on arm64.
 
 ### Requirements
 - Linux Arm64 server
-- [.NET 8.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/8.0) installed
+- [.NET 10.0 Runtime](https://dotnet.microsoft.com/en-us/download/dotnet/10.0) installed
 
 1. Download the latest VintagestoryServer from [account.vintagestory.at](https://account.vintagestory.at/) and extract it.
 2. Delete the following files and folders:
@@ -21,7 +20,7 @@ As of 1.21 the release includes Harmony 2.4.0 which allows mods to work also on 
    - VintagestoryServer.runtimeconfig.json
    - Lib
 
-3. Download the release from this for your vintagestory version (1.20 or 1.21 as of now) [repository](https://github.com/anegostudios/VintagestoryServerArm64/releases) and extract it.
+3. Download the release from this for your vintagestory version (1.20, 1.21 or 1.22 as of now) [repository](https://github.com/anegostudios/VintagestoryServerArm64/releases) and extract it.
 
 4. Copy the contents of the `server` folder from the extracted files to your server location.
 
@@ -47,7 +46,7 @@ You may also specify a specific version; for example, `./arminstall.sh -v 1.20.1
 If at any time you want to update to the latest version of Vintage Story, simply run the script again.
 
 ### Notes
-This version *should* be compatible with any version of the .NET 8 version of the game. The reason is that this only contains some dependencies and the binary to start the server since more is not necessary.
+This version *should* be compatible with any version of the .NET 10 version of the game. The reason is that this only contains some dependencies and the binary to start the server since more is not necessary.
 
 So far, we have tested it on a Raspberry Pi 4 4GB without issues. Keep in mind, though, this is very experimental, and we haven't done any more comprehensive testing so far. So this might run totally fine or have some major issues, be warned.
 
