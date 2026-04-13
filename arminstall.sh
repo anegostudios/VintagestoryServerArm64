@@ -197,7 +197,8 @@ rm -rf VintagestoryServer VintagestoryServer.deps.json VintagestoryServer.dll Vi
 # https://github.com/anegostudios/VintagestoryServerArm64/releases/download/1.19.0-rc.6/vs_server_linux-arm64-1.19.tar.gz
 # https://github.com/anegostudios/VintagestoryServerArm64/releases/download/1.20.0-rc.8/vs_server_linux-arm64_1.20.0.tar.gz
 # https://github.com/anegostudios/VintagestoryServerArm64/releases/download/1.21.0/vs_server_linux-arm64_1.21.0.tar.gz
-ARM64_RELEASE_URL="https://github.com/anegostudios/VintagestoryServerArm64/releases/download/1.21.0/vs_server_linux-arm64_1.21.0.tar.gz"
+# https://github.com/anegostudios/VintagestoryServerArm64/releases/download/1.22.0/vs_server_linux-arm64_1.22.0.tar.gz
+ARM64_RELEASE_URL="https://github.com/anegostudios/VintagestoryServerArm64/releases/download/1.22.0/vs_server_linux-arm64_1.22.0.tar.gz"
 curl -o vs_server_arm64.tar.gz -L "$ARM64_RELEASE_URL" # Use -L for redirection
 tar -xzf vs_server_arm64.tar.gz
 
