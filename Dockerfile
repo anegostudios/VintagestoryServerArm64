@@ -23,11 +23,12 @@ RUN tar xzf /tmp/vs_server_linux-x64.tar.gz && \
 COPY ./server .
 
 # final runtime image
-FROM mcr.microsoft.com/dotnet/runtime:8.0
+FROM mcr.microsoft.com/dotnet/runtime:10.0
 
 WORKDIR /app
 COPY --from=build /opt/vintagestory .
 
+RUN userdel --remove ubuntu
 RUN useradd -m -u 1000 -U vintagestory
 ENV HOME=/home/vintagestory
 ENV VSDATADIR=$HOME/.config/VintagestoryData
